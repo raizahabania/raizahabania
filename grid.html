@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js">
+    </script>
+    <!--Let browser know website is 
+        optimized for mobile-->
+    <meta name="viewport" content="width=device-width, 
+                    initial-scale=1.0" />
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="deep-purple-text text-lighten-2">Grid</h1>
+    </div>
+
+    <div class="divider"></div>
+    <br>
+
+    <div class="container">
+        <p class="grey-text text-darken-2">We are using a standard 12 column fluid responsive grid system. The grid
+            helps you layout your page in an ordered, easy fashion.
+        </p>
+
+        
+
+        <!-- //////////////////////////////////////////////////// -->
+
+        <h3 class="deep-purple-text text-lighten-2">Offsets</h3>
+        <p class="grey-text text-darken-2">To offset, simply add <span
+                style="border: 1px solid rgb(206, 202, 202); border: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;offset
+                s-2
+                &nbsp; </span> &nbsp; to the class where s signifies the screen
+            class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to
+            offset by.
+        </p>
+
+        <div class="row">
+            <div class="col s12  deep-purple lighten-2" style="border: 2px solid white ;"><span
+                    class="flow-text white-text">This
+                    div is 12-columns wide on all screen sizes</span></div>
+            <div class="col s6 offset-s6  deep-purple lighten-2" style="border: 2px solid white ;"><span class="flow-text white-text">6-columns
+                    (offset-by-6)</span></div>
+        </div>
+
+        <!-- //////////////////////////////////////////////////// -->
+        <h3 class="deep-purple-text text-lighten-2">Creating Layouts</h3>
+        <p class="grey-text text-darken-2">Here we will show you how to create some commonly used layouts with our grid
+            system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple,
+            the ones here will not be responsive.
+        </p>
+
+        <div class="row">
+            <div class="col s12 m6 deep-purple lighten-2 white-text" style="border: 2px solid white ;">
+                <h5>Section</h5>
+                <p>
+                    The section class is used for simple top and bottom padding. Just add the <span
+                        style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;section
+                        &nbsp; </span> &nbsp; class to your
+                    div's containing large blocks of content.
+                </p>
+            </div>
+            <div class="col s12 m6 deep-purple lighten-2 white-text" style="border: 2px solid white ;">
+                <h5>Divider</h5>
+                <p>
+                    Dividers are 1 pixel lines that help break up your content. Just add the <span
+                        style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;div
+                        &nbsp; </span> &nbsp; to a div in between
+                    your content.
+                </p>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 1</h5>
+            <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 2</h5>
+            <p>Stuff</p>
+        </div>
+        <div class="divider"></div>
+        <div class="section">
+            <h5>Section 3</h5>
+            <p>Stuff</p>
+        </div>
+
+        <!-- //////////////////////////////////////////////////// -->
+        <h3 class="deep-purple-text text-lighten-2">Creating Responsive Layouts</h3>
+        <p class="grey-text text-darken-2">Above we showed you how to layout elements using our grid system. Now we'll
+            show you how to design your layouts so that they look great on all screen sizes.
+        </p>
+
+        <h5>Screen Sizes</h5>
+        <table class="highlight">
+            <thead>
+                <tr class="deep-purple lighten-2 white-text">
+                    <th></th>
+                    <th>Mobile Devices <br>
+                        <=600px< /th>
+                    <th>Tablet Devices <br>> = 600px</th>
+                    <th>Desktop Devices <br>> 992px</th>
+                    <th>Large Desktop Devices <br>> 1200px</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>Class Prefix</strong></td>
+                    <td><span
+                            style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;.s
+                            &nbsp; </span>
+                        &nbsp; </td>
+                    <td><span
+                            style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;.m
+                            &nbsp; </span>
+                        &nbsp; </td>
+                    <td><span
+                            style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;.l
+                            &nbsp; </span>
+                        &nbsp; </td>
+                    <td><span
+                            style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;.xl
+                            &nbsp; </span>
+                        &nbsp; </td>
+
+                </tr>
+                <tr>
+                    <td><strong>Class Container Width</strong></td>
+                    <td>90%</td>
+                    <td>85%</td>
+                    <td>70%</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td><strong>Number of Collumns</strong></td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>12</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+        <h5>Screen Sizes</h5>
+        <p>In the previous examples, we only defined the size for small screens using <span
+                style="border: 1px solid rgb(206, 202, 202); border: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;"col
+                s12"
+                &nbsp; </span>. This is fine if we want
+            a fixed layout since the rules propagate upwards. By just saying s12, we are essentially saying <span
+                style="border: 1px solid rgb(206, 202, 202); border: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;"col
+                s12 m12 l12"
+                &nbsp; </span>. But by explicitly defining the size we can make our website more responsive.
+        </p>
+
+        <div class="row">
+            <div class="grid-example col s12 deep-purple lighten-2" style="border: 2px solid white ;"><span class="flow-text white-text">I am always full-width (col s12)</span></div>
+            <div class="grid-example col s12 m6  deep-purple lighten-2" style="border: 2px solid white ;"><span class="flow-text white-text">I am full-width on mobile (col s12 m6)</span>
+            </div>
+        </div>
+        <br><br><br>
+        <!-- <div class="row">
+            <div class="col s1 green center">1</div>
+            <div class="col s1 green darken-3 center">2</div>
+            <div class="col s1 green center">3</div>
+            <div class="col s1 green darken-3 center">4</div>
+            <div class="col s1 green center">5</div>
+            <div class="col s1 green darken-3 center">6</div>
+            <div class="col s1 green  center">7</div>
+            <div class="col s1 green darken-3 center">8</div>
+            <div class="col s1 green  center">9</div>
+            <div class="col s1 green darken-3 center">10</div>
+            <div class="col s1 green center">11</div>
+            <div class="col s1 green darken-3 center">12</div>
+        </div> -->
+
+        <!-- <p class="grey-text text-darken-2">Remember when you are creating your layout that all columns must be contained
+            inside a row and that you must add the &nbsp;<span
+                style="border: 1px solid rgb(206, 202, 202); border-bottom: 1px solid rgb(94, 87, 87); border-radius: 2px;">&nbsp;&nbsp;
+                col
+                &nbsp; </span> &nbsp; t class to your inner divs to make them into columns.
+        </p> -->
+    </div>
+
+
+
+</body>
+
+</html>
